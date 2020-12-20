@@ -4,3 +4,4 @@ Faker
 yappi
 py_spy
 gprof2dot
+memory_profiler
