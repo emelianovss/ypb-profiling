@@ -1,7 +1,7 @@
 import yappi
 from test_func_cpu_1 import func_1
 
-yappi.set_clock_type("cpu") # Use set_clock_type("wall") for wall time
+yappi.set_clock_type("cpu")
 yappi.start()
 func_1(10)
 
