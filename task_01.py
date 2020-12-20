@@ -1,4 +1,4 @@
-import time
+from time import monotonic
 
 
 def timer(func, *args, **kwargs):
@@ -16,5 +16,5 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-timer(fibonacci, 10)
+timer(fibonacci, 32)
 
